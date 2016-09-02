@@ -1,0 +1,4 @@
+ab
+ab[cde]fg
+ab\(cde\)fg
+ab\xcd

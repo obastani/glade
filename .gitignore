@@ -1,0 +1,7 @@
+prog-query
+glade.jar
+data/prog
+data/grammars
+log.txt
+*.class
+classes
