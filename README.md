@@ -7,6 +7,8 @@ For a detailed introduction to GLADE, see:
 
 - [**Synthesizing Program Input Grammars**](http://arxiv.org/abs/1608.01723)
 
+**Note:** GLADE is no longer actively developed. Consider using this unofficial fork of GLADE: https://github.com/kuhy/glade
+
 Table of Contents
 =====
 0. Prerequisites
@@ -69,7 +71,7 @@ runs the tests for all provided programs, and prints logging information both to
 To uninstall GLADE, run:
 
     $ ant clean
-    
+
 To uninstall the example programs that come with GLADE, run:
 
     $ ./cleanup.sh
@@ -128,7 +130,7 @@ This method should return true if the string `query` is contained in the target 
 
 The implementation of `TestOracle` is in `test/main/Test.java` (lines 31-56).
 
-**Examples:** The examples are a list of strings contained in the target language. 
+**Examples:** The examples are a list of strings contained in the target language.
 
     $ List<String> examples = Arrays.asList(new String[]{"{([][])([][])}{[()()][()()]}"});
 
